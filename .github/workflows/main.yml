@@ -14,5 +14,5 @@ jobs:
         server: ftp.nukatech.cl
         username: ${{ secrets.FTPUSERNAME }}
         password: ${{ secrets.FTPPASSWORD }}
-        protocol: ftps
+        protocol: ftps 
         server-dir: public_html/TestGIT_B/
